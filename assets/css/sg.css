@@ -1,0 +1,36 @@
+.header-logo img {
+    height: 56px;
+}
+
+.mobile-logo img {
+    height: 80px;
+}
+
+.footer-logo img {
+    height: 128px;
+}
+
+.product-content .links-wrap {
+    font-size: 24px;
+}
+
+.product-content .links-wrap a:not(:first-child) {
+    margin-left: 8px;
+}
+
+.vs-shop-wrapper {
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+@media (max-width: 575px) {
+    .header-logo img {
+        height: 48px;
+    }
+
+    .vs-header {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+}
